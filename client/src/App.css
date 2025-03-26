@@ -785,6 +785,7 @@ footer div ul a span {
   background: #1ab8b8;
   font-size: 1.2rem;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .authPage .container form a {

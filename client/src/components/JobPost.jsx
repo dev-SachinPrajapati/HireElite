@@ -46,33 +46,31 @@ const JobPost = () => {
     "Metaverse Development",
     "Robotic Process Automation (RPA)",
     "Wearable Technology",
-];
+  ];
 
-
-const cities = [
-  "All",
-  "Mumbai",
-  "Delhi",
-  "Bangalore",
-  "Hyderabad",
-  "Chennai",
-  "Kolkata",
-  "Pune",
-  "Ahmedabad",
-  "Jaipur",
-  "Lucknow",
-  "Indore",
-  "Bhopal",
-  "Chandigarh",
-  "Coimbatore",
-  "Kochi",
-  "Visakhapatnam",
-  "Nagpur",
-  "Patna",
-  "Thiruvananthapuram",
-  "Vadodara",
-];
-
+  const cities = [
+    "All",
+    "Mumbai",
+    "Delhi",
+    "Bangalore",
+    "Hyderabad",
+    "Chennai",
+    "Kolkata",
+    "Pune",
+    "Ahmedabad",
+    "Jaipur",
+    "Lucknow",
+    "Indore",
+    "Bhopal",
+    "Chandigarh",
+    "Coimbatore",
+    "Kochi",
+    "Visakhapatnam",
+    "Nagpur",
+    "Patna",
+    "Thiruvananthapuram",
+    "Vadodara",
+  ];
 
   const { isAuthenticated, user } = useSelector((state) => state.user);
   const { loading, error, message } = useSelector((state) => state.jobs);
@@ -108,6 +106,21 @@ const cities = [
     if (message) {
       toast.success(message);
       dispatch(resetJobSlice());
+
+
+      setTitle("");
+      setJobType("");
+      setLocation("");
+      setCompanyName("");
+      setIntroduction("");
+      setResponsibilities("");
+      setQualifications("");
+      setOffers("");
+      setJobNiche("");
+      setSalary("");
+      setHiringMultipleCandidates("");
+      setPersonalWebsiteTitle("");
+      setPersonalWebsiteUrl("");
     }
   }, [dispatch, error, loading, message]);
 
