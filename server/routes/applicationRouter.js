@@ -9,6 +9,8 @@ import {
 
 const router = express.Router();
 
+router.post("/apply/:id", isAuthenticated, postApplication);
+
 router.post(
   "/post/:id",
   isAuthenticated,
