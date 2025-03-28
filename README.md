@@ -1,6 +1,5 @@
-```markdown
 # HireElite - Job Portal
-
+ 
 ## Introduction
 
 HireElite is a modern job portal designed to seamlessly connect job seekers with employers. This full-stack web application streamlines job applications, employer job postings, and automated email notifications for relevant job opportunities. With a secure authentication system, user-friendly dashboards, and efficient state management using Redux, HireElite provides an optimal experience for both job seekers and employers.
@@ -72,7 +71,7 @@ Comprehensive documentation has been created to guide you through the installati
    ```sh
    npm install
    ```
-3. Set up environment variables in a `.env` file.
+3. Set up environment variables in a `config/config.env` file.
 4. Start the backend:
    ```sh
    npm run server
