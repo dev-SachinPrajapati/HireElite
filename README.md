@@ -65,7 +65,7 @@ Comprehensive documentation has been created to guide you through the installati
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/hireelite-job-portal.git
+   git clone https://github.com/dev-SachinPrajapati/HireElite.git
    cd hireelite-job-portal
    ```
 2. Install dependencies:
@@ -89,4 +89,3 @@ We welcome contributions! If you find a bug or have a feature request, feel free
 ---
 
 With HireElite, finding the right job or hiring the perfect candidate has never been easier. 🚀
-``
