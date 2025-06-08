@@ -27,6 +27,12 @@ HireElite is a modern job portal designed to seamlessly connect job seekers with
 - **Task Scheduling**: Node-Cron (for automating newsletter emails)
 - **Authentication**: Secure user authentication and profile management
 
+## Services and Technologies
+
+- **Authentication**: JWT (JSON Web Token)
+- **Media Management**: Cloudinary
+- **Email Services**: SMTP
+
 ## Key Functionalities
 
 1. **Automated Newsletters**: Using Node-Cron, the system periodically sends out job alerts to job seekers based on their selected niche.
