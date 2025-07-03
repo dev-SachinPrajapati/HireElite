@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/logo.png" alt="HireElite Logo" width="200"/>
+</p>
+
 # HireElite - Job Portal
  
 ## Introduction
