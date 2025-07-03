@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../hireelite/client/public/logo.png" alt="HireElite Logo" width="200"/>
+  <img src="./client/public/logo.png" alt="HireElite Logo" width="200"/>
 </p>
 
 # HireElite - Job Portal
