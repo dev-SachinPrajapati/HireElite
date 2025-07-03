@@ -64,7 +64,7 @@ const Navbar = () => {
       <nav className={show ? "navbar show_navbar" : "navbar"}>
         <div className="logo">
           <Link to="/" className="navlogo">
-            <h2>HireElite</h2>
+            <img src="/logo.png" alt="logo" />
           </Link>
         </div>
         <div className="links">
