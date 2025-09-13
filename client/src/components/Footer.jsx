@@ -1,10 +1,7 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import {
-  FaSquareXTwitter,
   FaSquareInstagram,
-  FaYoutube,
   FaLinkedin,
 } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
@@ -16,15 +13,20 @@ const Footer = () => {
       <footer>
         <div className="logo">
           <Link to="/" className="navlogo">
-            <h2>HireElite</h2>
+            <img src="/logo.png" alt="HireElite Logo" />
           </Link>
         </div>
         <div>
           <h4>Support</h4>
           <ul>
             <li>Mumbai Maharashtra India</li>
-            <li>support@hireelite.com</li>
-            <li>+91 7788994455</li>
+            <li>
+              <a href="mailto:captsachin8898@gmail.com">
+                captsachin8898@gmail.com
+              </a>
+            </li>
+
+            <li>+91 8828255706</li>
           </ul>
         </div>
 
@@ -48,17 +50,16 @@ const Footer = () => {
           <h4>Follow Us</h4>
           <ul>
             <li>
-              <Link to={"/"}>
+              <Link to={"https://github.com/dev-SachinPrajapati"}>
                 <span>
-                  {/* <FaSquareXTwitter /> */}
                   <FaGithub />
                 </span>
-                {/* <span>Twitter (X)</span> */}
+
                 <span>Github</span>
               </Link>
             </li>
             <li>
-              <Link to={"/"}>
+              <Link to={"https://www.instagram.com/prajapati_sachin.in/"}>
                 <span>
                   <FaSquareInstagram />
                 </span>
@@ -66,15 +67,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to={"/"}>
-                <span>
-                  <FaYoutube />
-                </span>
-                <span>Youtube</span>
-              </Link>
-            </li>
-            <li>
-              <Link to={"/"}>
+              <Link to={"https://www.linkedin.com/in/sachin-prajapati-it/"}>
                 <span>
                   <FaLinkedin />
                 </span>
